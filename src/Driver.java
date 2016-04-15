@@ -6,7 +6,7 @@ public class Driver{
 
 	public static void main(String[] args){
 		BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
-
+		Queue partyQueue = new Queue();
 		while(true){
 			System.out.println("\t1.   Customer party enters the restaurant.");
 			System.out.println("\t2.   Customer party is seated and served.");
