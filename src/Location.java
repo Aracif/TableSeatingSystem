@@ -1,0 +1,4 @@
+
+public enum Location {
+	NO_KIDS_ALLOWED_SECTION, KID_FRIENDLY_SECTION
+}
