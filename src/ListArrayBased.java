@@ -4,9 +4,9 @@
  public class ListArrayBased implements ListInterface
  {
 
-     private static final int MAX_LIST = 10;
-     protected static Object []items;  // an array of list items
-     protected static int numItems;  // number of items in list
+     private  final int MAX_LIST = 10;
+     protected  Object []items;  // an array of list items
+     protected  int numItems;  // number of items in list
 
      public ListArrayBased()
      {

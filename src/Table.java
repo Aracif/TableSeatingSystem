@@ -11,6 +11,8 @@ public class Table {
 		currentParty = null;
 		this.tableNumber=tableNumber;
 	}
+	
+	
 
 	public Integer getAvailableSeating() {
 		return availableSeating;
@@ -34,6 +36,10 @@ public class Table {
 
 	public void setTableNumber(int tableNumber) {
 		this.tableNumber = tableNumber;
+	}
+	
+	public String toString(){
+		return "Table " + tableNumber + " with " + availableSeating + " seats.";
 	}
 	
 }
