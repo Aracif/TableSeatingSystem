@@ -19,7 +19,6 @@ public class Driver{
 		return false;
 	}
 
-
 	private static int checkTableNumber(ArrayList<Integer> t, int num){
 		int total = t.size();
 		for(int i = 0; i<total; i++){
@@ -39,9 +38,21 @@ public class Driver{
 		}
 		System.out.println(">>Enter number of seats: ");
 		int seatNumber = Integer.parseInt(read.readLine());
-		//numList.add(numList.size(), tableNum);
-		//sec.add(sec.size(), new Table(seatNumber,tableNum));
 		return new int[]{seatNumber, numCheck};
+	}
+
+	private static Table tableFinder(ListArrayBasedPlus section, Party p){		
+		for(int i = 0; i < section.size(); i++){
+			Table currentTable = (Table)section.get(i);
+			if(currentTable.getAvailableSeating()>=p.getSize()){
+				System.out.println("Serving customer " + p.getName() + 
+						"'s party of " + p.getSize() + " at table number " + 
+						currentTable.getTableNumber() + "(" + currentTable.getAvailableSeating() + 
+						" chairs)\n");
+				return currentTable;
+			}
+		}
+		return null;
 	}
 
 
@@ -59,7 +70,12 @@ public class Driver{
 		ArrayList<Integer> kidNumbers = new ArrayList<Integer>();
 		ArrayList<Integer> adultNumbers = new ArrayList<Integer>();
 		
-		
+		kidsSection.add(0, new Table(4,1));
+		kidsSection.add(1, new Table(6,2));
+		adultSection.add(0, new Table(4,1));
+		adultSection.add(1, new Table(6,2));
+		lineList.add(0, new Party("Ficara",8,Location.KID_FRIENDLY));
+		lineList.add(1, new Party("Jackson",4,Location.KID_FRIENDLY));
 
 		//Get the initial input, this builds the seating in the restaurant.
 		System.out.println("Enter your restaurant configuration: ");
@@ -117,55 +133,32 @@ public class Driver{
 					nameTracking.add(nameTracking.size(), partyName);
 					break;
 
-				case 2:
-					;
+				case 2:					
 					boolean tableSetFlag = false;				
 					for(int linePosition = 0; linePosition<lineList.size() && tableSetFlag==false; linePosition++){
-						
 						Party currentParty = (Party) lineList.get(linePosition);
 						if(lineList.size()==0){
 							System.out.println("No customers to serve!");
 						}
 						else if(currentParty.getSection()==Location.KID_FRIENDLY){
-							int kidSectionSize = kidsSection.size();
-							for(int i = 0; i<kidSectionSize && tableSetFlag==false; i++){
-								Table currTable = (Table)kidsSection.get(i);
-								if(currTable.getAvailableSeating()>= currentParty.getSize()){
-									currTable.setCurrentParty(currentParty);
-									tableSetFlag = true;
-									occupiedTables.add(occupiedTables.size(), currTable);
-									lineList.remove(linePosition);
-									System.out.println("Serving customer " + currentParty.getName() + 
-											"'s party of " + currentParty.getSize() + " at table number " + 
-											currTable.getTableNumber() + "(" + currTable.getAvailableSeating() + 
-											" chairs)");
-								}							
+							Table t = tableFinder(kidsSection, currentParty);
+							if(t!=null){
+								occupiedTables.add(occupiedTables.size(), t);
+								t.setCurrentParty(currentParty);
+								tableSetFlag = true;
+								lineList.remove(linePosition);
 							}							
 						}
-						else{
-							int adultSectionSize = adultSection.size();
-							for(int i = 0; i <adultSectionSize && tableSetFlag==false; i++){
-								Table currentAdultTable = (Table)adultSection.get(i);
-								if(currentAdultTable.getAvailableSeating()>=currentParty.getSize()){
-									currentAdultTable.setCurrentParty(currentParty);
-									tableSetFlag = true;
-									occupiedTables.add(occupiedTables.size(), currentAdultTable);
-									lineList.remove(linePosition);
-									System.out.println("Serving customer " + currentParty.getName() + 
-											"'s party of " + currentParty.getSize() + " at table number " + 
-											currentAdultTable.getTableNumber() + "(" + currentAdultTable.getAvailableSeating() + 
-											" chairs)");
-											
-								}
-							}							
+						else{						
+							Table t = tableFinder(kidsSection, currentParty);
+							if(t!=null){
+								occupiedTables.add(occupiedTables.size(), t);
+								t.setCurrentParty(currentParty);
+								tableSetFlag = true;
+								lineList.remove(linePosition);
+							}
 						}
-						
 					}
-					if(tableSetFlag==false){
-						System.out.println("There exists no tables available at the current time to seat your party");
-					}
-
-					
 					break;
 
 				case 3:
@@ -184,9 +177,9 @@ public class Driver{
 							cT.setCurrentParty(null);
 							occupiedTables.remove(i);
 							for(int k = 0; i<nameTracking.size(); k++){
-								String str = (String)nameTracking.get(i);
+								String str = (String)nameTracking.get(k);
 								if(str.equals(currentTablePartyName)){
-									nameTracking.remove(i);
+									nameTracking.remove(k);
 								}
 							}
 						}									
@@ -256,9 +249,9 @@ public class Driver{
 					}
 					else{
 
-						System.out.println("\n\tThe following " + lineSize + " customer parties are waiting for tables: ");
+						System.out.println("\n\t->The following " + lineSize + " customer parties are waiting for tables: ");
 						for(int i = 0; i<lineSize; i++){
-							System.out.println("\t"+lineList.get(i));
+							System.out.println("\t\t"+lineList.get(i));
 						}
 						System.out.println("\n");
 					}
