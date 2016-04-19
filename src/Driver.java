@@ -58,6 +58,8 @@ public class Driver{
 		ListArrayBasedPlus nameTracking = new ListArrayBasedPlus();
 		ArrayList<Integer> kidNumbers = new ArrayList<Integer>();
 		ArrayList<Integer> adultNumbers = new ArrayList<Integer>();
+		
+		
 
 		//Get the initial input, this builds the seating in the restaurant.
 		System.out.println("Enter your restaurant configuration: ");
@@ -116,10 +118,10 @@ public class Driver{
 					break;
 
 				case 2:
-					int linePosition = lineList.size();
+					;
 					boolean tableSetFlag = false;				
-					while(linePosition >= 0 && tableSetFlag==false){
-						linePosition -= 1;
+					for(int linePosition = 0; linePosition<lineList.size() && tableSetFlag==false; linePosition++){
+						
 						Party currentParty = (Party) lineList.get(linePosition);
 						if(lineList.size()==0){
 							System.out.println("No customers to serve!");
@@ -132,6 +134,7 @@ public class Driver{
 									currTable.setCurrentParty(currentParty);
 									tableSetFlag = true;
 									occupiedTables.add(occupiedTables.size(), currTable);
+									lineList.remove(linePosition);
 									System.out.println("Serving customer " + currentParty.getName() + 
 											"'s party of " + currentParty.getSize() + " at table number " + 
 											currTable.getTableNumber() + "(" + currTable.getAvailableSeating() + 
@@ -147,11 +150,12 @@ public class Driver{
 									currentAdultTable.setCurrentParty(currentParty);
 									tableSetFlag = true;
 									occupiedTables.add(occupiedTables.size(), currentAdultTable);
-									
+									lineList.remove(linePosition);
 									System.out.println("Serving customer " + currentParty.getName() + 
 											"'s party of " + currentParty.getSize() + " at table number " + 
 											currentAdultTable.getTableNumber() + "(" + currentAdultTable.getAvailableSeating() + 
 											" chairs)");
+											
 								}
 							}							
 						}
@@ -160,9 +164,7 @@ public class Driver{
 					if(tableSetFlag==false){
 						System.out.println("There exists no tables available at the current time to seat your party");
 					}
-					else{
-						lineList.remove(linePosition);
-					}
+
 					
 					break;
 
