@@ -147,13 +147,16 @@ public class Driver{
 						}
 						if(currentTable!=null){
 							currentTable.setCurrentParty(currentParty);
-							
+
 							lineList.remove(linePosition);
 							occupiedTables.add(occupiedTables.size(), currentTable);
-						}					
+						}		
+						System.out.print("\n");
 						System.out.println(currentTable==null
 								?"There is currently no available seats for your party, sorry"
-										:"Your party has been seated and removed from the line list");
+										:"Serving customer " + currentParty.getName() + "'s party of " + 
+										currentParty.getSize() + " at table number" + 
+										currentTable.getTableNumber() + "(" + currentTable.getAvailableSeating() + " chairs)");
 					}
 					break;
 
@@ -172,6 +175,12 @@ public class Driver{
 									"has left the restaurant.");
 							cT.setCurrentParty(null);
 							occupiedTables.remove(i);
+							for(int k = 0; i<nameTracking.size(); k++){
+								String str = (String)nameTracking.get(i);
+								if(str.equals(currentTablePartyName)){
+									nameTracking.remove(i);
+								}
+							}
 						}									
 					}
 					break;
@@ -190,9 +199,11 @@ public class Driver{
 					int seatNum = Integer.parseInt(read.readLine());
 					if(desiredSection==Location.KID_FRIENDLY){
 						kidsSection.add(kidsSection.size(), new Table(seatNum, tableNum));
+						kidNumbers.add(tableNum);
 					}
 					else{
 						adultSection.add(adultSection.size(), new Table(seatNum, tableNum));
+						adultNumbers.add(tableNum);
 					}							
 					break;
 
@@ -208,10 +219,11 @@ public class Driver{
 					for(int i = 0; i<adultSectionSize; i++){
 						System.out.println("\t\t"+adultSection.get(i));
 					}					
-					System.out.println("\n\tThe following " + kidSectionSize + " tables are available in the kid-friendly section:");
+					System.out.println("\tThe following " + kidSectionSize + " tables are available in the kid-friendly section:");
 					for(int i = 0; i<kidSectionSize; i++){
 						System.out.println("\t\t"+ kidsSection.get(i));
-					}	
+					}
+					System.out.println("\n");
 					break;
 
 				case 7:
@@ -225,6 +237,7 @@ public class Driver{
 						for(int i = 0; i<lineSize; i++){
 							System.out.println("\t"+lineList.get(i));
 						}
+						System.out.println("\n");
 					}
 					break;
 
@@ -240,21 +253,27 @@ public class Driver{
 							Table currentTab = (Table)occupiedTables.get(i);
 							Party currentPar = currentTab.getCurrentParty();
 							if(currentPar.getSection()==Location.KID_FRIENDLY){
-									s1 += currentPar.getName() + "'s party is seated at table " +
-									+ currentTab.getTableNumber();
+								s1 += currentPar.getName() + "'s party is seated at table " +
+										+ currentTab.getTableNumber();
 							}
 							else{
-									s2 += currentPar.getName() + "'s party is seated at table " +
-											+ currentTab.getTableNumber();
+								s2 += currentPar.getName() + "'s party is seated at table " +
+										+ currentTab.getTableNumber();
 							}							
 						}
-						System.out.println("The following customer is being served in the no-kids-allowed section:");
-						System.out.println(s2);
-						System.out.println("The following customer is being served in the kid-friendly section:");
-						System.out.println(s1);
+						System.out.println("\n");
+						if(!s2.equals("")){
+							System.out.println("\tThe following customer is being served in the no-kids-allowed section:");
+							System.out.println("\t\t"+s2);
+						}
+						if(!s1.equals("")){
+							System.out.println("\tThe following customer is being served in the kid-friendly section:");
+							System.out.println("\t\t"+s1);
+							System.out.println("\n");
+						}
 					}
 					break;
-					
+
 				case 9:
 					System.out.println("Goodbye");
 					System.exit(0);
