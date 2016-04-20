@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.function.BiPredicate;
 
 /**
  * 
@@ -25,9 +24,9 @@ public class Driver{
 	 */
 	private static boolean nameCheck(String name, ListArrayBasedPlus nameList){
 		int listSize = nameList.size();
-		BiPredicate<String, String> nameEquality = (x,y) -> x.equals(y);
+		
 		for(int i = 0; i<listSize; i++){
-			if(nameEquality.test(name, (String)nameList.get(i))){
+			if(name.equals((String)nameList.get(i))){
 				return true;
 			}
 		}
