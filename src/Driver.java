@@ -64,15 +64,17 @@ public class Driver{
 	 * @throws IOException
 	 */
 	private static int[] sectionBuilder(ListArrayBasedPlus sec,  BufferedReader read, MyListReferenceBased numList) throws NumberFormatException, IOException{
-		
-		System.out.println(">>Enter table number: ");			
-		int numCheck = checkTableNumber(numList, Integer.parseInt(read.readLine()));
+		int num = Integer.parseInt(read.readLine().trim());
+		System.out.println(">>Enter table number: " + num);			
+		int numCheck = checkTableNumber(numList, num);
 		while(numCheck==-1){
 			System.out.println("This table already exists! Please enter another table number ");
-			numCheck = checkTableNumber(numList, Integer.parseInt(read.readLine()));
-		}
-		System.out.println(">>Enter number of seats: ");
-		int seatNumber = Integer.parseInt(read.readLine());
+			num = Integer.parseInt(read.readLine().trim());
+			System.out.println(">>Enter table number: " + num);
+			numCheck = checkTableNumber(numList, num);
+		}		
+		int seatNumber = Integer.parseInt(read.readLine().trim());
+		System.out.println(">>Enter number of seats: " + seatNumber);
 		return new int[]{seatNumber, numCheck};
 	}
 
@@ -246,16 +248,15 @@ public class Driver{
 
 		//Get the initial input, this builds the seating in the restaurant.
 		System.out.println("Enter your restaurant configuration: ");
-		System.out.println(">>How many tables does your no-kids-allowed section have? ");
 		int entries = Integer.parseInt(read.readLine());
+		System.out.println(">>How many tables does your no-kids-allowed section have? " + entries);
 		for(int i = 0; i<entries; i++){
 			int[] newTableStats = sectionBuilder(adultSection,read,adultNumbers);
 			adultSection.add(adultSection.size(), new Table(newTableStats[0], newTableStats[1]));
 			adultNumbers.add(adultNumbers.size(),newTableStats[1]);
 		}
-
-		System.out.println(">>How many tables does your kid-friendly section have? ");
 		entries = Integer.parseInt(read.readLine());
+		System.out.println(">>How many tables does your kid-friendly section have? " + entries);		
 		for(int i = 0; i<entries; i++){
 			int[] newTableStats = sectionBuilder(kidsSection,read,kidNumbers);
 			kidsSection.add(kidsSection.size(), new Table(newTableStats[0],newTableStats[1]));
@@ -264,6 +265,7 @@ public class Driver{
 
 
 		while(true){
+			int select = Integer.parseInt(read.readLine().trim());
 			System.out.println("\t1.   Customer party enters the restaurant.");
 			System.out.println("\t2.   Customer party is seated and served.");
 			System.out.println("\t3.   Customer party leaves the restaurant.");
@@ -273,27 +275,28 @@ public class Driver{
 			System.out.println("\t7.   Display info about waiting customer parties.");
 			System.out.println("\t8.   Display info about customer parties being served.");
 			System.out.println("\t9.   Close the restaurant.");
-			System.out.println(">>Make a selection: ");
+			System.out.println(">>Make a selection: " + select);
 
 			try{
-				switch(Integer.parseInt(read.readLine())){
+				switch(select){
 
-				case 1: 			
-					System.out.println(">>Enter customer name : ");
-					String partyName = read.readLine();
+				case 1: 	
+					String partyName = read.readLine().trim();
+					System.out.println(">>Enter customer name : " + partyName);				
 					boolean nameFound = nameCheck(partyName,nameTracking);
 					if(nameFound){
 						while(nameFound){
 							System.out.println("Name duplicate detected, please enter a new " +
 									"name");
-							partyName = read.readLine();
+							partyName = read.readLine().trim();
+							System.out.println(">>Enter customer name : " + partyName);	
 							nameFound = nameCheck(partyName,nameTracking);
 						}
 					}
-					System.out.println(">>Enter number of seats for customer : ");
-					Integer partySize = Integer.parseInt(read.readLine());
-					System.out.println(">>no-kids-allowed (Y/N)?");
-					String section = read.readLine();
+					Integer partySize = Integer.parseInt(read.readLine().trim());
+					System.out.println(">>Enter number of seats for customer : " + partySize);
+					String section = read.readLine().trim();
+					System.out.println(">>no-kids-allowed (Y/N)? " + section );				
 					lineList.add(lineList.size(),new Party(partyName, partySize, section.equals("N")
 							?Location.KID_FRIENDLY
 									:Location.NO_KIDS_ALLOWED ));
@@ -343,8 +346,8 @@ public class Driver{
 						System.out.println("No customer is being served!");
 					}
 					else{
-						System.out.println("Enter the name of the party to leave: ");
-						String n = read.readLine();				
+						String n = read.readLine().trim();	
+						System.out.println("Enter the name of the party to leave: " + n);									
 						for(int i = 0; i<totalOccupiedTables && found==false; i++){
 							Table cT = (Table)occupiedTables.get(i);
 							String currentTablePartyName = cT.getCurrentParty().getName();
@@ -367,8 +370,10 @@ public class Driver{
 
 				case 4:
 					System.out.println(">>You are now adding a table.");
-					System.out.println("To which section would you like to add this table?(K/N): ");					
-					Location desiredSection = read.readLine().equals("K")?Location.KID_FRIENDLY:Location.NO_KIDS_ALLOWED;				
+					String str = read.readLine().trim();
+					Location desiredSection = str.equals("K")?Location.KID_FRIENDLY:Location.NO_KIDS_ALLOWED;
+					System.out.println("To which section would you like to add this table?(K/N): " + str);					
+									
 					if(desiredSection==Location.KID_FRIENDLY){
 						int[] newTableStats = sectionBuilder(kidsSection,read,kidNumbers);
 						kidsSection.add(kidsSection.size(), new Table(newTableStats[0],newTableStats[1]));
@@ -384,11 +389,11 @@ public class Driver{
 				case 5:
 					Integer flag = null;
 					System.out.println(">>You are now removing a table. ");
-					System.out.println(" From which section would you like to remove this table?(K/N): ");
-					String sec = read.readLine();
+					String sec = read.readLine().trim();
+					System.out.println(" From which section would you like to remove this table?(K/N): " + sec);				
 					Location selectedLocation = sec.equals("K")?Location.KID_FRIENDLY:Location.NO_KIDS_ALLOWED;
-					System.out.println(">>Enter table number: ");
-					Integer tableNum = Integer.parseInt(read.readLine());
+					Integer tableNum = Integer.parseInt(read.readLine().trim());
+					System.out.println(">>Enter table number: " + tableNum);				
 					if(selectedLocation==Location.KID_FRIENDLY){					
 						flag = tableRemover(kidsSection,tableNum);
 						if(flag>=0){
