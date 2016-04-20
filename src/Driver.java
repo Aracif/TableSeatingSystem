@@ -57,14 +57,17 @@ public class Driver{
 	
 	private static Integer tableRemover(ListArrayBasedPlus sec, int tableNum){
 		int sectionSize = sec.size();
-		Integer flag = null;
-		for(int i = 0; i<sectionSize; i++){
+		Integer flag = -1;
+		boolean found = false;
+		for(int i = 0; i<sectionSize && found==false; i++){
 			Table currentTable = (Table)sec.get(i);
 			if(currentTable.getTableNumber()==tableNum && currentTable.getCurrentParty()==null){
-				flag = i;
+				flag = i;		
+				found = true;
 			}
 			else if(currentTable.getTableNumber()==tableNum && currentTable.getCurrentParty()!=null){
-				flag = 0;
+				flag = -2;
+				found = true;
 			}
 		}
 		return flag;
@@ -291,28 +294,30 @@ public class Driver{
 					Integer tableNum = Integer.parseInt(read.readLine());
 					if(selectedLocation==Location.KID_FRIENDLY){					
 						flag = tableRemover(kidsSection,tableNum);
-						if(flag>0){
+						if(flag>=0){
 							kidNumbers.remove(numberFind(kidNumbers, tableNum));
-							kidsSection.remove(flag);							
+							kidsSection.remove(flag);
+							System.out.println("Table " + tableNum + " has been removed from " + "kid-friendly section.");
 						}
-						else if(flag==0){
+						else if(flag==-2){
 							System.out.println("Can't remove a table that is currently in use!");
 						}
 						else{
-							System.out.println("That table doesn't exist!");
+							System.out.println("This table doesn't exist in the kid-friendly section! Please enter another table number");
 						}
 					}
 					else{
 						flag = tableRemover(adultSection, tableNum);
-						if(flag>0){
+						if(flag>=0){
 							adultNumbers.remove(numberFind(adultNumbers, tableNum));
-							adultSection.remove(flag);							
+							adultSection.remove(flag);
+							System.out.println("Table " + tableNum + " has been removed from " + "adult-only section.");
 						}
-						else if(flag==0){
+						else if(flag==-2){
 							System.out.println("Can't remove a table that is currently in use!");
 						}
 						else{
-							System.out.println("That table doesn't exist!");
+							System.out.println("This table doesn't exist in the adult-only section! Please enter another table number");
 						}
 					}
 					
