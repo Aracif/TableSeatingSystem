@@ -64,6 +64,7 @@ public class Driver{
 	 * @throws IOException
 	 */
 	private static int[] sectionBuilder(ListArrayBasedPlus sec,  BufferedReader read, MyListReferenceBased numList) throws NumberFormatException, IOException{
+		
 		System.out.println(">>Enter table number: ");			
 		int numCheck = checkTableNumber(numList, Integer.parseInt(read.readLine()));
 		while(numCheck==-1){
