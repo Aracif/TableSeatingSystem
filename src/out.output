@@ -1,0 +1,1393 @@
+Enter your restaurant configuration: 
+>>How many tables does your no-kids-allowed section have? 6
+>>Enter table number: 2
+>>Enter number of seats: 4
+>>Enter table number: 4
+>>Enter number of seats: 6
+>>Enter table number: 3
+>>Enter number of seats: 2
+>>Enter table number: 4
+This table already exists! Please enter another table number 
+>>Enter table number: 5
+>>Enter number of seats: 4
+>>Enter table number: 6
+>>Enter number of seats: 2
+>>Enter table number: 1
+>>Enter number of seats: 3
+>>How many tables does your kid-friendly section have? 7
+>>Enter table number: 4
+>>Enter number of seats: 6
+>>Enter table number: 7
+>>Enter number of seats: 3
+>>Enter table number: 3
+>>Enter number of seats: 6
+>>Enter table number: 2
+>>Enter number of seats: 3
+>>Enter table number: 5
+>>Enter number of seats: 2
+>>Enter table number: 5
+This table already exists! Please enter another table number 
+>>Enter table number: 6
+>>Enter number of seats: 8
+>>Enter table number: 1
+>>Enter number of seats: 4
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 2
+There is no one in line right now
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 3
+No customer is being served!
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 6
+The following 6 tables are available in the no-kids-allowed section:
+	Table 2 with 4 seats.
+	Table 4 with 6 seats.
+	Table 3 with 2 seats.
+	Table 5 with 4 seats.
+	Table 6 with 2 seats.
+	Table 1 with 3 seats.
+
+The following 7 tables are available in the kid-friendly section:
+	Table 4 with 6 seats.
+	Table 7 with 3 seats.
+	Table 3 with 6 seats.
+	Table 2 with 3 seats.
+	Table 5 with 2 seats.
+	Table 6 with 8 seats.
+	Table 1 with 4 seats.
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 7
+
+No customers are waiting for tables!
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 8
+
+No customers are being served!
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 1
+>>Enter customer name : Beverly
+>>Enter number of seats for customer : 3
+>>no-kids-allowed (Y/N)? Y
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 1
+>>Enter customer name : Geordi
+>>Enter number of seats for customer : 3
+>>no-kids-allowed (Y/N)? N
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 1
+>>Enter customer name : Worf
+>>Enter number of seats for customer : 4
+>>no-kids-allowed (Y/N)? N
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 1
+>>Enter customer name : Will
+>>Enter number of seats for customer : 4
+>>no-kids-allowed (Y/N)? N
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 1
+>>Enter customer name : Guinan
+>>Enter number of seats for customer : 4
+>>no-kids-allowed (Y/N)? N
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 6
+The following 6 tables are available in the no-kids-allowed section:
+	Table 2 with 4 seats.
+	Table 4 with 6 seats.
+	Table 3 with 2 seats.
+	Table 5 with 4 seats.
+	Table 6 with 2 seats.
+	Table 1 with 3 seats.
+
+The following 7 tables are available in the kid-friendly section:
+	Table 4 with 6 seats.
+	Table 7 with 3 seats.
+	Table 3 with 6 seats.
+	Table 2 with 3 seats.
+	Table 5 with 2 seats.
+	Table 6 with 8 seats.
+	Table 1 with 4 seats.
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 7
+
+	The following 5 customer parties are waiting for tables: 
+	 -> Beverly's party of 3 waiting to be seated in the NO_KIDS_ALLOWED
+	 -> Geordi's party of 3 waiting to be seated in the KID_FRIENDLY
+	 -> Worf's party of 4 waiting to be seated in the KID_FRIENDLY
+	 -> Will's party of 4 waiting to be seated in the KID_FRIENDLY
+	 -> Guinan's party of 4 waiting to be seated in the KID_FRIENDLY
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 8
+
+No customers are being served!
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 2
+Serving customer Beverly's party of 3 at table number 2(4 chairs)
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 6
+The following 5 tables are available in the no-kids-allowed section:
+	Table 4 with 6 seats.
+	Table 3 with 2 seats.
+	Table 5 with 4 seats.
+	Table 6 with 2 seats.
+	Table 1 with 3 seats.
+
+The following 7 tables are available in the kid-friendly section:
+	Table 4 with 6 seats.
+	Table 7 with 3 seats.
+	Table 3 with 6 seats.
+	Table 2 with 3 seats.
+	Table 5 with 2 seats.
+	Table 6 with 8 seats.
+	Table 1 with 4 seats.
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 7
+
+	The following 4 customer parties are waiting for tables: 
+	 -> Geordi's party of 3 waiting to be seated in the KID_FRIENDLY
+	 -> Worf's party of 4 waiting to be seated in the KID_FRIENDLY
+	 -> Will's party of 4 waiting to be seated in the KID_FRIENDLY
+	 -> Guinan's party of 4 waiting to be seated in the KID_FRIENDLY
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 8
+
+
+	The following customers are being served in the no-kids-allowed section:
+	  ->Beverly's party is seated at table 2
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 2
+Serving customer Geordi's party of 3 at table number 4(6 chairs)
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 6
+The following 5 tables are available in the no-kids-allowed section:
+	Table 4 with 6 seats.
+	Table 3 with 2 seats.
+	Table 5 with 4 seats.
+	Table 6 with 2 seats.
+	Table 1 with 3 seats.
+
+The following 6 tables are available in the kid-friendly section:
+	Table 7 with 3 seats.
+	Table 3 with 6 seats.
+	Table 2 with 3 seats.
+	Table 5 with 2 seats.
+	Table 6 with 8 seats.
+	Table 1 with 4 seats.
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 7
+
+	The following 3 customer parties are waiting for tables: 
+	 -> Worf's party of 4 waiting to be seated in the KID_FRIENDLY
+	 -> Will's party of 4 waiting to be seated in the KID_FRIENDLY
+	 -> Guinan's party of 4 waiting to be seated in the KID_FRIENDLY
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 8
+
+
+	The following customers are being served in the no-kids-allowed section:
+	  ->Beverly's party is seated at table 2
+
+	The following customers are being served in the kid-friendly section:
+	  ->Geordi's party is seated at table 4
+
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 2
+Serving customer Worf's party of 4 at table number 3(6 chairs)
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 2
+Serving customer Will's party of 4 at table number 6(8 chairs)
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 6
+The following 5 tables are available in the no-kids-allowed section:
+	Table 4 with 6 seats.
+	Table 3 with 2 seats.
+	Table 5 with 4 seats.
+	Table 6 with 2 seats.
+	Table 1 with 3 seats.
+
+The following 4 tables are available in the kid-friendly section:
+	Table 7 with 3 seats.
+	Table 2 with 3 seats.
+	Table 5 with 2 seats.
+	Table 1 with 4 seats.
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 7
+
+	The following 1 customer parties are waiting for tables: 
+	 -> Guinan's party of 4 waiting to be seated in the KID_FRIENDLY
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 8
+
+
+	The following customers are being served in the no-kids-allowed section:
+	  ->Beverly's party is seated at table 2
+
+	The following customers are being served in the kid-friendly section:
+	  ->Geordi's party is seated at table 4
+	  ->Worf's party is seated at table 3
+	  ->Will's party is seated at table 6
+
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 1
+>>Enter customer name : Jean-Luc
+>>Enter number of seats for customer : 6
+>>no-kids-allowed (Y/N)? Y
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 1
+>>Enter customer name : Deanna
+>>Enter number of seats for customer : 6
+>>no-kids-allowed (Y/N)? N
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 1
+>>Enter customer name : Data
+>>Enter number of seats for customer : 6
+>>no-kids-allowed (Y/N)? N
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 1
+>>Enter customer name : Will
+Name duplicate detected, please enter a new name
+>>Enter customer name : Worf
+Name duplicate detected, please enter a new name
+>>Enter customer name : Wesley
+>>Enter number of seats for customer : 6
+>>no-kids-allowed (Y/N)? N
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 2
+Serving customer Guinan's party of 4 at table number 1(4 chairs)
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 2
+Serving customer Jean-Luc's party of 6 at table number 4(6 chairs)
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 2
+There was no available seating for this party
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 2
+There was no available seating for this party
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 6
+The following 4 tables are available in the no-kids-allowed section:
+	Table 3 with 2 seats.
+	Table 5 with 4 seats.
+	Table 6 with 2 seats.
+	Table 1 with 3 seats.
+
+The following 3 tables are available in the kid-friendly section:
+	Table 7 with 3 seats.
+	Table 2 with 3 seats.
+	Table 5 with 2 seats.
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 7
+
+	The following 3 customer parties are waiting for tables: 
+	 -> Deanna's party of 6 waiting to be seated in the KID_FRIENDLY
+	 -> Data's party of 6 waiting to be seated in the KID_FRIENDLY
+	 -> Wesley's party of 6 waiting to be seated in the KID_FRIENDLY
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 8
+
+
+	The following customers are being served in the no-kids-allowed section:
+	  ->Beverly's party is seated at table 2
+	  ->Jean-Luc's party is seated at table 4
+
+	The following customers are being served in the kid-friendly section:
+	  ->Geordi's party is seated at table 4
+	  ->Worf's party is seated at table 3
+	  ->Will's party is seated at table 6
+	  ->Guinan's party is seated at table 1
+
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 3
+Enter the name of the party to leave: Deanna
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 3
+Enter the name of the party to leave: Worf
+The party Worf has left the restaurant.
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 6
+The following 4 tables are available in the no-kids-allowed section:
+	Table 3 with 2 seats.
+	Table 5 with 4 seats.
+	Table 6 with 2 seats.
+	Table 1 with 3 seats.
+
+The following 4 tables are available in the kid-friendly section:
+	Table 7 with 3 seats.
+	Table 3 with 6 seats.
+	Table 2 with 3 seats.
+	Table 5 with 2 seats.
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 7
+
+	The following 3 customer parties are waiting for tables: 
+	 -> Deanna's party of 6 waiting to be seated in the KID_FRIENDLY
+	 -> Data's party of 6 waiting to be seated in the KID_FRIENDLY
+	 -> Wesley's party of 6 waiting to be seated in the KID_FRIENDLY
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 8
+
+
+	The following customers are being served in the no-kids-allowed section:
+	  ->Beverly's party is seated at table 2
+	  ->Jean-Luc's party is seated at table 4
+
+	The following customers are being served in the kid-friendly section:
+	  ->Geordi's party is seated at table 4
+	  ->Will's party is seated at table 6
+	  ->Guinan's party is seated at table 1
+
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 1
+>>Enter customer name : Deanna
+Name duplicate detected, please enter a new name
+>>Enter customer name : Daedulus
+>>Enter number of seats for customer : 4
+>>no-kids-allowed (Y/N)? Y
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 2
+Serving customer Deanna's party of 6 at table number 3(6 chairs)
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 6
+The following 4 tables are available in the no-kids-allowed section:
+	Table 3 with 2 seats.
+	Table 5 with 4 seats.
+	Table 6 with 2 seats.
+	Table 1 with 3 seats.
+
+The following 3 tables are available in the kid-friendly section:
+	Table 7 with 3 seats.
+	Table 2 with 3 seats.
+	Table 5 with 2 seats.
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 7
+
+	The following 3 customer parties are waiting for tables: 
+	 -> Data's party of 6 waiting to be seated in the KID_FRIENDLY
+	 -> Wesley's party of 6 waiting to be seated in the KID_FRIENDLY
+	 -> Daedulus's party of 4 waiting to be seated in the NO_KIDS_ALLOWED
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 8
+
+
+	The following customers are being served in the no-kids-allowed section:
+	  ->Beverly's party is seated at table 2
+	  ->Jean-Luc's party is seated at table 4
+
+	The following customers are being served in the kid-friendly section:
+	  ->Geordi's party is seated at table 4
+	  ->Will's party is seated at table 6
+	  ->Guinan's party is seated at table 1
+	  ->Deanna's party is seated at table 3
+
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 3
+Enter the name of the party to leave: Wesley
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 2
+Serving customer Daedulus's party of 4 at table number 5(4 chairs)
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 6
+The following 3 tables are available in the no-kids-allowed section:
+	Table 3 with 2 seats.
+	Table 6 with 2 seats.
+	Table 1 with 3 seats.
+
+The following 3 tables are available in the kid-friendly section:
+	Table 7 with 3 seats.
+	Table 2 with 3 seats.
+	Table 5 with 2 seats.
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 7
+
+	The following 2 customer parties are waiting for tables: 
+	 -> Data's party of 6 waiting to be seated in the KID_FRIENDLY
+	 -> Wesley's party of 6 waiting to be seated in the KID_FRIENDLY
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 8
+
+
+	The following customers are being served in the no-kids-allowed section:
+	  ->Beverly's party is seated at table 2
+	  ->Jean-Luc's party is seated at table 4
+	  ->Daedulus's party is seated at table 5
+
+	The following customers are being served in the kid-friendly section:
+	  ->Geordi's party is seated at table 4
+	  ->Will's party is seated at table 6
+	  ->Guinan's party is seated at table 1
+	  ->Deanna's party is seated at table 3
+
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 1
+>>Enter customer name : Data
+Name duplicate detected, please enter a new name
+>>Enter customer name : Worf
+>>Enter number of seats for customer : 4
+>>no-kids-allowed (Y/N)? N
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 6
+The following 3 tables are available in the no-kids-allowed section:
+	Table 3 with 2 seats.
+	Table 6 with 2 seats.
+	Table 1 with 3 seats.
+
+The following 3 tables are available in the kid-friendly section:
+	Table 7 with 3 seats.
+	Table 2 with 3 seats.
+	Table 5 with 2 seats.
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 7
+
+	The following 3 customer parties are waiting for tables: 
+	 -> Data's party of 6 waiting to be seated in the KID_FRIENDLY
+	 -> Wesley's party of 6 waiting to be seated in the KID_FRIENDLY
+	 -> Worf's party of 4 waiting to be seated in the KID_FRIENDLY
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 8
+
+
+	The following customers are being served in the no-kids-allowed section:
+	  ->Beverly's party is seated at table 2
+	  ->Jean-Luc's party is seated at table 4
+	  ->Daedulus's party is seated at table 5
+
+	The following customers are being served in the kid-friendly section:
+	  ->Geordi's party is seated at table 4
+	  ->Will's party is seated at table 6
+	  ->Guinan's party is seated at table 1
+	  ->Deanna's party is seated at table 3
+
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 5
+>>You are now removing a table. 
+ From which section would you like to remove this table?(K/N): K
+>>Enter table number: 1
+Can't remove a table that is currently in use!
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 5
+>>You are now removing a table. 
+ From which section would you like to remove this table?(K/N): N
+>>Enter table number: 6
+Table 6 has been removed from adult-only section.
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 5
+>>You are now removing a table. 
+ From which section would you like to remove this table?(K/N): N
+>>Enter table number: 8
+This table doesn't exist in the adult-only section! Please enter another table number
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 5
+>>You are now removing a table. 
+ From which section would you like to remove this table?(K/N): K
+>>Enter table number: 7
+Table 7 has been removed from kid-friendly section.
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 3
+Enter the name of the party to leave: Deanna
+The party Deanna has left the restaurant.
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 3
+Enter the name of the party to leave: Jean-Luc
+The party Jean-Luc has left the restaurant.
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 3
+Enter the name of the party to leave: Data
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 6
+The following 3 tables are available in the no-kids-allowed section:
+	Table 4 with 6 seats.
+	Table 3 with 2 seats.
+	Table 1 with 3 seats.
+
+The following 3 tables are available in the kid-friendly section:
+	Table 3 with 6 seats.
+	Table 2 with 3 seats.
+	Table 5 with 2 seats.
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 7
+
+	The following 3 customer parties are waiting for tables: 
+	 -> Data's party of 6 waiting to be seated in the KID_FRIENDLY
+	 -> Wesley's party of 6 waiting to be seated in the KID_FRIENDLY
+	 -> Worf's party of 4 waiting to be seated in the KID_FRIENDLY
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 8
+
+
+	The following customers are being served in the no-kids-allowed section:
+	  ->Beverly's party is seated at table 2
+	  ->Daedulus's party is seated at table 5
+
+	The following customers are being served in the kid-friendly section:
+	  ->Geordi's party is seated at table 4
+	  ->Will's party is seated at table 6
+	  ->Guinan's party is seated at table 1
+
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 5
+>>You are now removing a table. 
+ From which section would you like to remove this table?(K/N): N
+>>Enter table number: 7
+This table doesn't exist in the adult-only section! Please enter another table number
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 5
+>>You are now removing a table. 
+ From which section would you like to remove this table?(K/N): K
+>>Enter table number: 5
+Table 5 has been removed from kid-friendly section.
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 6
+The following 3 tables are available in the no-kids-allowed section:
+	Table 4 with 6 seats.
+	Table 3 with 2 seats.
+	Table 1 with 3 seats.
+
+The following 2 tables are available in the kid-friendly section:
+	Table 3 with 6 seats.
+	Table 2 with 3 seats.
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 7
+
+	The following 3 customer parties are waiting for tables: 
+	 -> Data's party of 6 waiting to be seated in the KID_FRIENDLY
+	 -> Wesley's party of 6 waiting to be seated in the KID_FRIENDLY
+	 -> Worf's party of 4 waiting to be seated in the KID_FRIENDLY
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 8
+
+
+	The following customers are being served in the no-kids-allowed section:
+	  ->Beverly's party is seated at table 2
+	  ->Daedulus's party is seated at table 5
+
+	The following customers are being served in the kid-friendly section:
+	  ->Geordi's party is seated at table 4
+	  ->Will's party is seated at table 6
+	  ->Guinan's party is seated at table 1
+
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 4
+>>You are now adding a table.
+To which section would you like to add this table?(K/N): N
+>>Enter table number: 6
+>>Enter number of seats: 4
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 7
+
+	The following 3 customer parties are waiting for tables: 
+	 -> Data's party of 6 waiting to be seated in the KID_FRIENDLY
+	 -> Wesley's party of 6 waiting to be seated in the KID_FRIENDLY
+	 -> Worf's party of 4 waiting to be seated in the KID_FRIENDLY
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 6
+The following 4 tables are available in the no-kids-allowed section:
+	Table 4 with 6 seats.
+	Table 3 with 2 seats.
+	Table 1 with 3 seats.
+	Table 6 with 4 seats.
+
+The following 2 tables are available in the kid-friendly section:
+	Table 3 with 6 seats.
+	Table 2 with 3 seats.
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 6
+The following 4 tables are available in the no-kids-allowed section:
+	Table 4 with 6 seats.
+	Table 3 with 2 seats.
+	Table 1 with 3 seats.
+	Table 6 with 4 seats.
+
+The following 2 tables are available in the kid-friendly section:
+	Table 3 with 6 seats.
+	Table 2 with 3 seats.
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 7
+
+	The following 3 customer parties are waiting for tables: 
+	 -> Data's party of 6 waiting to be seated in the KID_FRIENDLY
+	 -> Wesley's party of 6 waiting to be seated in the KID_FRIENDLY
+	 -> Worf's party of 4 waiting to be seated in the KID_FRIENDLY
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 8
+
+
+	The following customers are being served in the no-kids-allowed section:
+	  ->Beverly's party is seated at table 2
+	  ->Daedulus's party is seated at table 5
+
+	The following customers are being served in the kid-friendly section:
+	  ->Geordi's party is seated at table 4
+	  ->Will's party is seated at table 6
+	  ->Guinan's party is seated at table 1
+
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 2
+Serving customer Data's party of 6 at table number 3(6 chairs)
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 6
+The following 4 tables are available in the no-kids-allowed section:
+	Table 4 with 6 seats.
+	Table 3 with 2 seats.
+	Table 1 with 3 seats.
+	Table 6 with 4 seats.
+
+The following 1 table is available in the kid-friendly section:
+	Table 2 with 3 seats.
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 7
+
+	The following 2 customer parties are waiting for tables: 
+	 -> Wesley's party of 6 waiting to be seated in the KID_FRIENDLY
+	 -> Worf's party of 4 waiting to be seated in the KID_FRIENDLY
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 8
+
+
+	The following customers are being served in the no-kids-allowed section:
+	  ->Beverly's party is seated at table 2
+	  ->Daedulus's party is seated at table 5
+
+	The following customers are being served in the kid-friendly section:
+	  ->Geordi's party is seated at table 4
+	  ->Will's party is seated at table 6
+	  ->Guinan's party is seated at table 1
+	  ->Data's party is seated at table 3
+
+
+
+	1.   Customer party enters the restaurant.
+	2.   Customer party is seated and served.
+	3.   Customer party leaves the restaurant.
+	4.   Add a table.
+	5.   Remove a table.
+	6.   Display available tables.
+	7.   Display info about waiting customer parties.
+	8.   Display info about customer parties being served.
+	9.   Close the restaurant.
+>>Make a selection: 9
+Goodbye
